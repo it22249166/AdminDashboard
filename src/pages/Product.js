@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Input, InputNumber, Button, Select, Table, Tag, Modal, notification } from 'antd';
+import { Form, Input, InputNumber, Button, Select, Table, Tag, notification } from 'antd';
 import { PlusOutlined, DeleteOutlined, EditOutlined } from '@ant-design/icons';
 import StatusCard from '../components/StatusCard';
 

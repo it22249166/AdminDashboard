@@ -2,10 +2,9 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import Sidebar from 'components/Sidebar';
 import Dashboard from 'pages/Dashboard';
 import Settings from 'pages/Settings';
-import Tables from 'pages/Tables';
 import Maps from 'pages/Maps';
 import Footer from 'components/Footer';
-
+import Product from 'pages/Product';
 // Tailwind CSS Style Sheet
 import 'assets/styles/tailwind.css';
 
@@ -17,7 +16,7 @@ function App() {
                 <Switch>
                     <Route exact path="/" component={Dashboard} />
                     <Route exact path="/settings" component={Settings} />
-                    <Route exact path="/tables" component={Tables} />
+                    <Route exact path="/product" component={Product} />
                     <Route exact path="/maps" component={Maps} />
                     <Redirect from="*" to="/" />
                 </Switch>

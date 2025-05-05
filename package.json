@@ -4,11 +4,13 @@
   "private": true,
   "homepage": "https://demos.creative-tim.com/material-tailwind-dashboard-react/#/",
   "dependencies": {
+    "@ant-design/icons": "^4.8.0",
     "@material-tailwind/react": "^0.3.4",
     "@react-google-maps/api": "^2.1.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "antd": "^5.24.9",
     "chart.js": "2.9.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
