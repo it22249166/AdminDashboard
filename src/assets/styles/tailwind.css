@@ -614,6 +614,9 @@ video {
 .flex{
 	display: flex;
 }
+.inline-flex{
+	display: inline-flex;
+}
 .table{
 	display: table;
 }
@@ -641,8 +644,14 @@ video {
 .h-\[600px\]{
 	height: 600px;
 }
+.h-6{
+	height: 1.5rem;
+}
 .min-h-full{
 	min-height: 100%;
+}
+.min-h-screen{
+	min-height: 100vh;
 }
 .w-full{
 	width: 100%;
@@ -662,11 +671,17 @@ video {
 .w-56{
 	width: 14rem;
 }
+.w-11{
+	width: 2.75rem;
+}
 .min-w-full{
 	min-width: 100%;
 }
 .max-w-full{
 	max-width: 100%;
+}
+.max-w-5xl{
+	max-width: 64rem;
 }
 .border-collapse{
 	border-collapse: collapse;
@@ -701,11 +716,19 @@ video {
 .justify-center{
 	justify-content: center;
 }
+.justify-end{
+	justify-content: flex-end;
+}
 .gap-2{
 	gap: 0.5rem;
 }
 .gap-4{
 	gap: 1rem;
+}
+.space-y-4 > :not([hidden]) ~ :not([hidden]){
+	--tw-space-y-reverse: 0;
+	margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+	margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 .overflow-x-auto{
 	overflow-x: auto;
@@ -762,6 +785,22 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
+.bg-gray-900{
+	--tw-bg-opacity: 1;
+	background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+}
+.bg-blue-500{
+	--tw-bg-opacity: 1;
+	background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
+}
+.bg-gray-300{
+	--tw-bg-opacity: 1;
+	background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+}
+.bg-green-500{
+	--tw-bg-opacity: 1;
+	background-color: rgba(16, 185, 129, var(--tw-bg-opacity));
+}
 .bg-gradient-to-tr{
 	background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
@@ -814,6 +853,10 @@ video {
 	padding-left: 0px;
 	padding-right: 0px;
 }
+.py-2{
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
 .pt-8{
 	padding-top: 2rem;
 }
@@ -862,6 +905,9 @@ video {
 }
 .font-bold{
 	font-weight: 700;
+}
+.font-semibold{
+	font-weight: 600;
 }
 .uppercase{
 	text-transform: uppercase;
@@ -2464,6 +2510,10 @@ video {
 .lg\:justify-start{justify-content:flex-start}
 .lg\:px-36{padding-left:9rem;padding-right:9rem}
 .lg\:text-left{text-align:left}}
+.hover\:bg-blue-600:hover{
+	--tw-bg-opacity: 1;
+	background-color: rgba(37, 99, 235, var(--tw-bg-opacity));
+}
 .hover\:text-gray-900:hover{
 	--tw-text-opacity: 1;
 	color: rgba(17, 24, 39, var(--tw-text-opacity));
