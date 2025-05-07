@@ -95,7 +95,7 @@ export default function Sidebar() {
                             
                             <li className="bg-gradient-to-tr from-purple-500 to-purple-700 px-4 rounded-lg text-white">
                                 <a
-                                    href="https://www.creative-tim.com/product/material-tailwind-dashboard-react"
+                                    // href="https://www.creative-tim.com/product/material-tailwind-dashboard-react"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="flex items-center justify-center gap-4 text-sm font-light py-3"

@@ -9,7 +9,7 @@ export default function footer() {
                     rel="noreferrer"
                     className="text-light-blue-500 hover:text-light-blue-700"
                 >
-                    Creative Tim
+                    XGenLabs Tech Solutions
                 </a>
             </p>
 
@@ -19,7 +19,7 @@ export default function footer() {
                         className="text-gray-700 hover:text-gray-900 font-medium block text-sm"
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.creative-tim.com/presentation?ref=mtdk"
+                        // href="https://www.creative-tim.com/presentation?ref=mtdk"
                     >
                         About Us
                     </a>
@@ -29,7 +29,7 @@ export default function footer() {
                         className="text-gray-700 hover:text-gray-900 font-medium block text-sm"
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.creative-tim.com/blog/?ref=mtdk"
+                        // href="https://www.creative-tim.com/blog/?ref=mtdk"
                     >
                         Blog
                     </a>
@@ -39,7 +39,7 @@ export default function footer() {
                         className="text-gray-700 hover:text-gray-900 font-medium block text-sm"
                         target="_blank"
                         rel="noreferrer"
-                        href="https://github.com/creativetimofficial/material-tailwind-dashboard-react/blob/main/LICENSE?ref=mtdk"
+                        // href="https://github.com/creativetimofficial/material-tailwind-dashboard-react/blob/main/LICENSE?ref=mtdk"
                     >
                         MIT License
                     </a>
@@ -49,7 +49,7 @@ export default function footer() {
                         className="text-gray-700 hover:text-gray-900 font-medium block text-sm"
                         target="_blank"
                         rel="noreferrer"
-                        href="https://creative-tim.com/contact-us?ref=mtdk"
+                        // href="https://creative-tim.com/contact-us?ref=mtdk"
                     >
                         Contact Us
                     </a>
